@@ -1,0 +1,55 @@
+@import url("bootstrap.min.css");
+body{
+    font-size: 16px;
+}
+.nav{
+    background: white;
+    opacity: 0.5;
+    height: 70px;
+    padding: 10px;
+
+    border-radius: 5px;
+    color: #433F3E;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    border-bottom: 3px solid #433F3E;
+    background: none;
+}
+.nav>li>a{
+    //border-bottom: 3px solid white;
+    color: #0D0D0D;
+    font-size: 120%;
+}
+.title-note{
+    font-size: 140%;
+    position: relative;
+    padding: 10px;
+    color: #0D0D0D;
+    width: 300px;
+}
+.bg-title{
+    background: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    background-attachment: scroll;
+    background-position-y: -300px;
+    height: 400px;
+
+}
+.footer{
+    background: linear-gradient(0deg, #DCDCDC 97%, #F9B236);
+    //height: 200px;
+    padding-top: 30px;
+    font-size: 80%;
+}
+.content{
+    //height: 300px;
+    padding: 20px;
+}
+.navbar-brand img{
+    height: 100px;
+}
+.separator{
+    height: 5px;
+    background: #F9B236;
+}
